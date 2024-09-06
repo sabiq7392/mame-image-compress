@@ -1,6 +1,5 @@
 import sharp, { AvailableFormatInfo, FitEnum, ResizeOptions, Color, fit as fitSharp, FormatEnum } from "sharp";
 import { NextRequest, NextResponse } from "next/server";
-import eliminateObjectFalseValue from "@/utils/objects/eliminateObjectFalseValue";
 import { NumberString } from "@/types";
 
 /**
